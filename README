@@ -1,0 +1,33 @@
+#------------Part of unpublished work (to be submitted very soon).
+#------------Only partial code is provided.
+#------------Need dipole moment and polarizability values.
+#------------Information about ion (H3O+, NH4+, NO+ and O2+) required.
+#------------Such as temperature inside dridt tube, buffer gas etc.
+========================================================================================================================================
+This code is a part of series of codes written for the calculations of rate coefficients
+of ion-molecule reactions occuring in chemical ionization mass spectrometry (CIMS), typically PTR-MS and SIFT-MS. For the calculation of rate coefficents, 
+we need to compute many other prerequisites. This will include the following:
+
+1. Ion kinetic energy in the drift tube chamber (Wannier 1953).
+
+2. Effective drift tube temperature ().
+
+3. Center-of-mass kinetic energy (McFarland 1973).
+
+4. Rates from capture collision models, such as Langevin rates, average dipole orientation (ADO) theory (Su et al. 1973).
+
+5. Classical trajectory and parametrized trajectory method (Su and Chesnavich 1982, 1994).
+
+===========================================================================================================================================
+
+Why you need this calculation?
+
+Rate coefficients for ion-molecule reactions in CIMS are important for the identification and quantification of trace gases (volatile compounds)
+present in atmosphere, food products, and many other sources. These reactions occur at zero activation energy and experimental rates are generally a source of
+large errors. Aslo, volatile compounds can be identified without instrument calibration if rate coeffcient of the reaction is known. The capture collision models
+discussed above are used to approximate these collisions in CIMS.
+
+
+Applications: Atmospheric science, food and quality control, biology, and medical science.  
+
+References: Ellis et al. 2014, Fuji 2015, Harrison 1992.
